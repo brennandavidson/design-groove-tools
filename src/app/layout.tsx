@@ -5,6 +5,9 @@ export const metadata: Metadata = {
   title: "Design Groove Tools",
   description: "Client tools portal",
   robots: "noindex, nofollow",
+  icons: {
+    icon: "/favicon.png",
+  },
 };
 
 export default function RootLayout({

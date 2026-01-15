@@ -34,26 +34,7 @@ export default function ClientPage({ params }: Props) {
       <div className="max-w-xl mx-auto">
         {/* Logo */}
         <div className="flex justify-center mb-8">
-          <svg
-            width="200"
-            height="40"
-            viewBox="0 0 200 40"
-            className="text-gray-800"
-          >
-            <text
-              x="50%"
-              y="50%"
-              dominantBaseline="middle"
-              textAnchor="middle"
-              fontSize="24"
-              fontWeight="600"
-              fill="currentColor"
-            >
-              design gr
-              <tspan fill="#3B82F6">oo</tspan>
-              ve
-            </text>
-          </svg>
+          <img src="/logo.svg" alt="Design Groove" className="h-10" />
         </div>
 
         {/* Form */}

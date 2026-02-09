@@ -10,9 +10,9 @@ export const clients: Record<string, ClientConfig> = {
     formId: "blsD0iPAJz6ZicA7KknF",
     formHeight: 627,
   },
-  // Add more clients here:
-  // "client-slug": {
-  //   name: "Client Name",
-  //   formId: "formIdFromLeadConnector",
-  // },
+  "top-tech-air": {
+    name: "Top Tech Air",
+    formId: "0wLecluTpeB9tCCvZlqq",
+    formHeight: 698,
+  },
 };
